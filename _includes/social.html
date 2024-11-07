@@ -17,5 +17,9 @@
   <img src="https://design.keyoxide.org/keyoxide/icons/keyoxide.svg" class="svg-icon">
   <span class="username">Keyoxide</span></a></li>{%- endif -%}
 
+  {%- if site.matrix -%}<li><a href="https://matrix.to/#/{{ site.matrix| cgi_escape | escape }}">
+  <img src="https://matrix.org/images/matrix-favicon.svg" class="svg-icon">
+  <span class="username">Matrix</span></a></li>{%- endif -%}
+
   <!-- custom addition END -->
 </ul>
