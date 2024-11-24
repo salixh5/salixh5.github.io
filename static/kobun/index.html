@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>古文ドリル</title>
+		
+		<!-- UIkit CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/css/uikit.min.css" />
+		
+		<!-- UIkit JS -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.11/dist/js/uikit-icons.min.js"></script>
+	</head>
+	<body>
+		<div class="uk-section">
+			<div class="uk-container uk-container-xsmall">
+				<h1>動詞の活用</h1>
+				<div class="uk-card uk-card-body">
+					<h3 class="uk-card-title">
+						<ruby><span id="currentVerb">給ふ</span><rp> (</rp><rt id="currentVerbYomi">たまふ</rt><rp>)</rp><ruby>
+					</h3>
+					<span class="uk-hidden" id="verbQuestion">終止形</span>
+					<form id="verbForm">
+						<input type="text" id="verbAnswer" />
+						<span id="verbAnswerConnectionEx">時</span>
+						<span style="transition: opacity .3s; opacity: 0;" id="verbResult">❌</span>
+						<br />
+						<button>check</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="uk-section">
+			<div class="uk-container uk-container-xsmall">
+				<h1>動詞と助動詞の組み合わせ</h1>
+				<div class="uk-card uk-card-body">
+					<h3 class="uk-card-title">
+						<ruby><span id="currentVerbKumi">給ふ</span><rp> (</rp><rt id="currentVerbYomiKumi">たまふ</rt><rp>)</rp><ruby> +
+						<span id="currentJodoushi">ず</span>
+					</h3>
+					<span class="uk-hidden" id="verbKumiQuestion">終止形</span>
+					<form id="verbKumiForm">
+						<input type="text" id="verbKumiVerbAnswer" /> + 
+						<input type="text" id="verbKumiJodoushiAnswer" />
+						<span id="verbKumiAnswerConnectionEx">時</span>
+						<span style="transition: opacity .3s; opacity: 0;" id="verbKumiResult">❌</span>
+						<br />
+						<button>check</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Game data -->
+		<script src="verbs.data.js"></script>
+		<script src="types.data.js"></script>
+		<script src="jodoushi.data.js"></script>
+		<!-- Game code -->
+		<script src="main.js"></script>
+	</body>
+</html>

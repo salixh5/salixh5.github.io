@@ -6,3 +6,6 @@ layout: home
 ---
 
 Hello, world!
+
+This page is currently just acting as a place-holder.
+You can find contact info below.
