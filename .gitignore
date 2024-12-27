@@ -2,7 +2,8 @@
 # a Gemfile as specified at https://github.com/github/pages-gem#conventional
 
 # Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
+# _site/
+# As the github-pages gem is quite outdated, I'm building the site manually.
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
@@ -15,7 +16,8 @@ _site/
 # This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+# Gemfile.lock
+# As the github-pages gem is quite outdated, I'm building the site manually.
 
 # macOS
 .DS_Store

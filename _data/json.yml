@@ -1,0 +1,31 @@
+- key: Name
+  value: noa yanagibashi
+- key: Description
+  value:
+    - Hello!
+    - Welcome to
+    - my tiny website
+  typed: true
+#- key: CV
+#  value: cv.pdf
+#  url: /cv.pdf
+- key: Location
+  value:
+    - key: Home
+      value: dusseldorf, germany
+    - key: School
+      value: aachen, germany
+- key: Contact
+  value:
+    - key: Email
+      value: noa@hey.com
+      url: "mailto:noa@hey.com"
+    - key: Matrix
+      value: "@noa:communick.com"
+      url: "https://matrix.to/#/@noa:communick.com"
+- key: Profiles
+  value:
+    - value: GitHub
+      url: https://github.com/salixh5
+    - value: Keyoxide
+      url: https://keyoxide.org/aspe:keyoxide.org:R7SQYGBHELRMPRJ2GSSLUR4ZJA

@@ -18,19 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jakob Yanagibashi
-author: Jakob
-email: jakob@yanagibashi.org
-description: >- # this means to ignore newlines until "baseurl:"
-  My personal web page.
+title: noa.mt
+author: Noa
+email: noa@hey.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yanagibashi.org" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: salixh5
-keyoxide: YIXSBQF47CWP2XTVU4XQKO3HFA
-matrix: "@jakob:yanagibashi.org"
+url: "https://noa.mt" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+theme: hacked-jekyll
 plugins:
   - jekyll-feed
 minima:
