@@ -26,10 +26,7 @@ url: "https://noa.mt" # the base hostname & protocol for your site, e.g. http://
 
 # Build settings
 theme: hacked-jekyll
-plugins:
-  - jekyll-feed
-minima:
-  date_format: "%Y-%m-%d"
+destination: docs/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
